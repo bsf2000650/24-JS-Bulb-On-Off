@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Light On and Off</title>
+</head>
+<body>
+    <div class="outerDiv">
+        
+        <h1 class="main-heading">Can you turn the light on ?</h1>
+        <div class="innerDiv">
+        <button onclick="document.getElementById('myImage').src='on.png'" class="animated-button-on">Turn On the Light</button>
+        
+        <img class="bulb" src="off.jpg" style="width:  150px" alt="Light Off" id="myImage">
+        
+        <button onclick="document.getElementById('myImage').src='off.png' " class="animated-button-off">Turn Off the Light</button>
+    </div>
+    </div>
+</body>
+</html>
